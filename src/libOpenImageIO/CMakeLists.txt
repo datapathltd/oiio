@@ -139,7 +139,7 @@ target_link_libraries (OpenImageIO
             $<TARGET_NAME_IF_EXISTS:OpenColorIO::OpenColorIOHeaders>
             $<TARGET_NAME_IF_EXISTS:pugixml::pugixml>
             $<TARGET_NAME_IF_EXISTS:TBB::tbb>
-            ${BZIP2_LIBRARIES}
+            BZip2::BZip2
             ZLIB::ZLIB
             $<TARGET_NAME_IF_EXISTS:Boost::thread>
             ${CMAKE_DL_LIBS}
